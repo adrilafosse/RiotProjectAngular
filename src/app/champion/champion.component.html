@@ -1,0 +1,22 @@
+<h1>Champion</h1>
+<form>
+  <input type="text" [(ngModel)]="invocateurname" name="search">
+</form>
+<input type="button" (click)="chargerDonnees()" value="Add to favorites">
+<p>{{this.champion1.id}}</p>
+
+<div class="card text-center">
+  <div class="card-header">
+    <p>{{this.champion1.name}}</p>
+    <p>{{this.champion1.summonerLevel}}</p>
+  </div>
+  <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+  </div>
+  <div class="card-footer text-muted">
+      <a href="#" class="btn btn-primary">Profile</a>
+  </div>
+</div>
+
